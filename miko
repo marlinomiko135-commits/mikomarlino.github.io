@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Keterampilan Komputer - Miko Marlino</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
+        header { background: #1e293b; color: #fff; padding: 2.5rem 1rem; text-align: center; }
+        header h1 { margin: 0; font-size: 2rem; }
+        header p { color: #cbd5e1; margin-top: 0.5rem; font-size: 1rem; }
+        .container { max-width: 850px; margin: 2rem auto; padding: 0 1.5rem; }
+        .about { background: #fff; border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 2px 5px rgba(0,0,0,0.06); }
+        .about h2 { margin-top: 0; color: #1e293b; font-size: 1.3rem; }
+        .section-title { color: #1e293b; margin-bottom: 1rem; }
+        .card { background: #fff; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 2px 5px rgba(0,0,0,0.08); border-left: 5px solid #2563eb; }
+        .card h3 { margin-top: 0; color: #1e293b; }
+        .tag { display: inline-block; background: #e2e8f0; color: #334155; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem; margin-right: 0.4rem; margin-bottom: 0.8rem; }
+        .links a { display: inline-block; margin-right: 12px; margin-top: 8px; padding: 8px 14px; background: #16a34a; color: #fff; text-decoration: none; border-radius: 5px; font-size: 0.9rem; font-weight: 500; }
+        .links a:hover { opacity: 0.9; }
+        footer { text-align: center; padding: 1.5rem; color: #64748b; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Miko Marlino</h1>
+    <p>NIM: 256202007 | Kelas: TK 3C</p>
+    <p>Prodi D3 Teknik Komputer — Politeknik Negeri Samarinda</p>
+</header>
+
+<div class="container">
+    <div class="about">
+        <h2>Tentang Portofolio Ini</h2>
+        <p>Portofolio digital ini memuat kumpulan hasil praktikum dan tugas mata kuliah <strong>Keterampilan Komputer</strong>, mencakup otomatisasi dokumen perkantoran, pengolahan data spreadsheet, penyusunan materi presentasi, serta perancangan diagram alir (flowchart) sistem.</p>
+    </div>
+
+    <h2 class="section-title">Daftar Tugas Kuliah</h2>
+
+    <!-- TUGAS 1 -->
+    <div class="card">
+        <h3>1. Pembuatan Surat Undangan Resmi Menggunakan Mail Merge</h3>
+        <span class="tag">Microsoft Word</span>
+        <span class="tag">Mail Merge</span>
+        <span class="tag">Administrasi Perkantoran</span>
+        <p><strong>Deskripsi:</strong> Praktikum penyusunan format surat undangan resmi berstandar akademik dengan memanfaatkan fitur otomatis <em>Mail Merge</em> untuk pengisian data tujuan dan alamat penerima secara massal.</p>
+        <div class="links">
+            <a href="https://drive.google.com/file/d/1GAEcJL5g36se2CNbkwFtZ5Q-noXfeGZR/view?usp=drivesdk" target="_blank">Lihat Hasil Tugas 1 (Google Drive)</a>
+        </div>
+    </div>
+
+    <!-- TUGAS 2 -->
+    <div class="card">
+        <h3>2. Pengolahan Data Penjualan Tiket Pesawat Terbang (1990–2000)</h3>
+        <span class="tag">Microsoft Excel</span>
+        <span class="tag">Spreadsheet</span>
+        <span class="tag">Analisis Data</span>
+        <p><strong>Deskripsi:</strong> Rekapitulasi dan pengolahan tabel data historis penjualan tiket pesawat terbang dari berbagai bandara di Indonesia periode tahun 1990–2000, lengkap dengan perhitungan nilai rata-rata per bandara maupun per tahun.</p>
+        <div class="links">
+            <a href="https://drive.google.com/file/d/1kk5z7Ujt5PJ5SiYwx15BP3ChRFFqEapD/view?usp=drivesdk" target="_blank">Lihat Hasil Tugas 2 (Google Drive)</a>
+        </div>
+    </div>
+
+    <!-- TUGAS 3 -->
+    <div class="card">
+        <h3>3. Presentasi: Struktur Surat Undangan & Teknik Otomatisasi Mail Merge</h3>
+        <span class="tag">Presentasi</span>
+        <span class="tag">Dokumentasi Teknis</span>
+        <span class="tag">Otomatisasi Dokumen</span>
+        <p><strong>Deskripsi:</strong> Penyusunan salindia presentasi mengenai anatomi surat undangan formal, alur kerja <em>Mail Merge</em> (pembuatan <em>Data Source</em> hingga pencetakan), serta analisis efisiensi waktu pengerjaan dokumen.</p>
+        <div class="links">
+            <a href="https://drive.google.com/file/d/1UekC3bMoy1EF6sf_XBOzDcU75BPN3zKs/view?usp=drivesdk" target="_blank">Lihat Slide Tugas 3 (Google Drive)</a>
+        </div>
+    </div>
+
+    <!-- TUGAS 4 -->
+    <div class="card">
+        <h3>4. Perancangan Flowchart Sistem Deteksi Arah Antena</h3>
+        <span class="tag">Flowchart</span>
+        <span class="tag">Logika Algoritma</span>
+        <span class="tag">Sistem Kendali</span>
+        <p><strong>Deskripsi:</strong> Pembuatan diagram alir (<em>flowchart</em>) logika kerja sistem pelacakan arah antena otomatis berdasarkan pembacaan sensor arah, konversi sinyal ADC, perbandingan nilai register, hingga penentuan posisi terbaik antena.</p>
+        <div class="links">
+            <a href="https://drive.google.com/file/d/16GMKmM4IvtatNrx8XkPbAM-10Zo0YTP5/view?usp=drivesdk" target="_blank">Lihat Flowchart Tugas 4 (Google Drive)</a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Miko Marlino (256202007) — Politeknik Negeri Samarinda.</p>
+</footer>
+
+</body>
+</html>
